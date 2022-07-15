@@ -1,0 +1,18 @@
+
+.input {
+  padding: .6rem;
+  display: inline-block;
+  width: 100%;
+  font-size: 1.8rem;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 6px;
+}
+
+.input:focus {
+  border-color: rgb(44, 141, 141);
+}
+
+.invalid {
+  border-color: rgb(148, 27, 27);
+}

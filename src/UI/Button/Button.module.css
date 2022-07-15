@@ -1,0 +1,39 @@
+.button {
+  background-color: rgb(44, 141, 141);
+  color: rgb(214, 214, 214);
+  padding: 1rem 2rem;
+  outline: none;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(43, 131, 131);
+}
+
+.button:active {
+  transform: translate(1px, 1px);
+}
+
+.button:disabled {
+  background-color: rgb(121, 121, 121);
+  cursor: not-allowed;
+}
+
+.primary {
+  background-color: rgb(68, 84, 173);
+}
+
+.primary:hover {
+  background-color: rgb(43, 61, 161);
+}
+
+.danger {
+  background-color: rgb(161, 43, 43);
+}
+
+.danger:hover {
+  background-color: rgb(141, 5, 5);
+}
